@@ -1,0 +1,67 @@
+.container {
+    background-color: white;
+    //width: 60%;
+    //min-width: 800px;
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+}
+
+.topSide {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 16px 64px;
+    flex-wrap: wrap;
+}
+
+.leftSide {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    max-width: 400px;
+}
+
+.rightSide {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.titleItem {
+    margin: 0px;
+}
+
+.priceContainer {
+    padding-top: 16px;
+    display: flex;
+    flex-direction: row;
+    font-size: 32px;
+
+}
+
+.button {
+    margin-top: 32px;
+    border: none;
+    cursor: pointer;
+    background-color: #3483fa;
+    color: white;
+    padding: 8px;
+    border-radius: 2px;
+    width: 100%;
+}
+
+.decimals {
+    font-size: 16px;
+}
+
+.bottomSide {
+    display: flex;
+    flex-direction: column;
+    padding: 16px 64px;
+}
+
+.titleDescription {
+    font-weight: 700;
+    font-size: 24px;
+}

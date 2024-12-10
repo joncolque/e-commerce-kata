@@ -1,0 +1,9 @@
+# Ignore node_modules in front and bff
+/front/node_modules/
+/bff/node_modules/
+/front/.next
+
+# Optionally ignore other common files
+.DS_Store
+*.log
+*.env

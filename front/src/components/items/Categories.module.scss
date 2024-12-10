@@ -1,0 +1,8 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    padding: 16px 0;
+    color: gray;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,73 @@
+.html {
+    font-family: 'Proxima Nova', Arial, sans-serif;
+}
+
+.body {
+    margin: 0;
+    padding: 0;
+    background-color: #eeeeee;
+}
+
+.form {
+    background-color: #ffd700;
+    border: 2px solid #ffd700;
+    padding: 10px 0;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.headerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    align-self: center;
+    width: 100%;
+    max-width: 900px;
+}
+
+.input[name="search"] {
+    padding: 0px 15px;
+    font-size: 16px;
+    color: #8c8888;
+    border: 1px solid transparent;
+    height: 40px;
+    width: 100%;
+    outline: none;
+    font-family: 'Proxima Nova', Arial, sans-serif;
+
+    &:focus {
+        border: 1px solid #3483fa;
+    }
+}
+
+.input[name="search"]::placeholder {
+    color: #aaaaaa;
+}
+
+.button {
+    color: #8c8888;
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+}
+
+.button:hover {
+    background-color: #f1f1f1;
+}
+
+.button img {
+    width: 20px;
+    height: 20px;
+}
+
+.logo {
+    height: 40px;
+    margin-right: 16px;
+}
